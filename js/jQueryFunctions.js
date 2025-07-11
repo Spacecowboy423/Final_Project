@@ -17,9 +17,10 @@ const carDetails = (index) => {
         
         <b>Details:</b>
         <ul>
+            <li>$${car.price} Dollars </li>
             <li>${car.color} Vehicle</li>
             <li>${car.doors} Doors</li>
-            <li>${car.miles} miles</li>
+            <li>${car.miles} Miles</li>
         </ul>
         
         <b>Summary:</b>
